@@ -1,0 +1,198 @@
+header {
+    display: flex;
+    background-color: #F56C64;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+.a-logo {
+    align-items: center;
+    display: flex;
+}
+
+header .logo-text {
+    font-family: "Lobster", tofu;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+nav {
+    width: 100%;
+}
+
+header ul {
+    display:flex;
+    justify-content: right;
+    margin: 0;
+    height: 100%;
+}
+
+header li {
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+}
+
+header ul a {
+    padding: 16px;
+    background-color: #F59F64;
+    margin: 5px;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+
+.logo-text {
+    margin-left: 100px;
+}
+
+.logo-text p {
+    margin: 0;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    background-color: #FAE7BF
+   /* background-image: url(" ../images/streetrome.jpg");
+    background-image: url("../../images/streetrome.jpg");*/
+}
+
+main {
+    width: 70%;
+    margin: 5px auto;
+}
+main p {
+    text-align: justify;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: -1;
+}
+.big_image {
+    width: 100%;
+    
+}
+
+.banner-text {
+    position: absolute;
+    top: 80%;
+    left: 65%;
+    text-align:center;
+    transform:translate(-50%, -50%);
+    color: white;
+    font-size: 36px;
+    /*background-color: #F59F64;*/
+    background-color:rgba(255, 122, 89, .5);
+    border-radius: 50%;
+    padding: 15px;
+   
+}
+.gallery-row {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-item {
+    height: 150px; 
+    min-width: 260px;
+    margin: 15px;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+footer {
+    display: flex;
+    background-color: #F56C64;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    bottom: 0;
+}
+
+footer ul {
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+
+footer li {
+    list-style-type: none;
+}
+footer p.social {
+    align-items: center;
+    display: flex;
+}
+
+footer .social-images {
+    width: 32px;
+    height: 32px;
+    margin: 0 16px;
+    border-radius: 50%;
+
+}
+footer .social-content {
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    margin: 5px;
+   align-items:center ;
+}
+footer .copyright {
+    width: 20%;
+    text-align: center;
+}
+
+
+.social {
+    margin:0;
+    
+    padding: 16px;
+    background-color: #F59F64;
+    border-radius: 10px;
+}
+
+
+.contact-top {
+    display: flex;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;
+}
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+.map {
+    width: 50%;
+    padding: 10px;
+}
+.map iframe {
+    height: 400px;
+}
+.contact-form label {
+    margin: 5px 0;
+}
+.contact-form .text-field {
+    height: 100px;
+}
+.contact-form .button {
+    margin: 5px 0;
+    width: 100px;
+    background-color: green;
+}
